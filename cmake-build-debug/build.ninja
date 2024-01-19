@@ -49,8 +49,8 @@ cmake_ninja_workdir = C$:/Users/imwood04/CLionProjects/CPPTutorial/cmake-build-d
 
 build cmake_object_order_depends_target_CPPTutorial: phony || CMakeFiles/CPPTutorial.dir
 
-build CMakeFiles/CPPTutorial.dir/main.cpp.obj: CXX_COMPILER__CPPTutorial_unscanned_Debug C$:/Users/imwood04/CLionProjects/CPPTutorial/main.cpp || cmake_object_order_depends_target_CPPTutorial
-  DEP_FILE = CMakeFiles\CPPTutorial.dir\main.cpp.obj.d
+build CMakeFiles/CPPTutorial.dir/Main.cpp.obj: CXX_COMPILER__CPPTutorial_unscanned_Debug C$:/Users/imwood04/CLionProjects/CPPTutorial/Main.cpp || cmake_object_order_depends_target_CPPTutorial
+  DEP_FILE = CMakeFiles\CPPTutorial.dir\Main.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\CPPTutorial.dir
   OBJECT_FILE_DIR = CMakeFiles\CPPTutorial.dir
@@ -85,12 +85,6 @@ build CMakeFiles/CPPTutorial.dir/programFunctions.cpp.obj: CXX_COMPILER__CPPTuto
   OBJECT_DIR = CMakeFiles\CPPTutorial.dir
   OBJECT_FILE_DIR = CMakeFiles\CPPTutorial.dir
 
-build CMakeFiles/CPPTutorial.dir/ghStuff/getModuleBaseAddress.cpp.obj: CXX_COMPILER__CPPTutorial_unscanned_Debug C$:/Users/imwood04/CLionProjects/CPPTutorial/ghStuff/getModuleBaseAddress.cpp || cmake_object_order_depends_target_CPPTutorial
-  DEP_FILE = CMakeFiles\CPPTutorial.dir\ghStuff\getModuleBaseAddress.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\CPPTutorial.dir
-  OBJECT_FILE_DIR = CMakeFiles\CPPTutorial.dir\ghStuff
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target CPPTutorial
@@ -99,7 +93,7 @@ build CMakeFiles/CPPTutorial.dir/ghStuff/getModuleBaseAddress.cpp.obj: CXX_COMPI
 #############################################
 # Link the executable CPPTutorial.exe
 
-build CPPTutorial.exe: CXX_EXECUTABLE_LINKER__CPPTutorial_Debug CMakeFiles/CPPTutorial.dir/main.cpp.obj CMakeFiles/CPPTutorial.dir/math.cpp.obj CMakeFiles/CPPTutorial.dir/roulette.cpp.obj CMakeFiles/CPPTutorial.dir/mainMenu.cpp.obj CMakeFiles/CPPTutorial.dir/messageSpam.cpp.obj CMakeFiles/CPPTutorial.dir/programFunctions.cpp.obj CMakeFiles/CPPTutorial.dir/ghStuff/getModuleBaseAddress.cpp.obj
+build CPPTutorial.exe: CXX_EXECUTABLE_LINKER__CPPTutorial_Debug CMakeFiles/CPPTutorial.dir/Main.cpp.obj CMakeFiles/CPPTutorial.dir/math.cpp.obj CMakeFiles/CPPTutorial.dir/roulette.cpp.obj CMakeFiles/CPPTutorial.dir/mainMenu.cpp.obj CMakeFiles/CPPTutorial.dir/messageSpam.cpp.obj CMakeFiles/CPPTutorial.dir/programFunctions.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\CPPTutorial.dir

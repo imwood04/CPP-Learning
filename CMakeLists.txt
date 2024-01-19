@@ -3,14 +3,12 @@ project(CPPTutorial)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(CPPTutorial "oldMain.cpp" "math.cpp" "math.h" "roulette.cpp" "roulette.h"
+add_executable(CPPTutorial "Main.cpp" "math.cpp" "math.h" "roulette.cpp" "roulette.h"
         "mainMenu.cpp"
         "mainMenu.h"
         "messageSpam.cpp"
         "messageSpam.h"
         "programFunctions.cpp"
         "programFunctions.h"
-        ghStuff/getModuleBaseAddress.cpp
-        ghStuff/getModuleBaseAddress.h
-        main.cpp
+        Main.cpp
 )
