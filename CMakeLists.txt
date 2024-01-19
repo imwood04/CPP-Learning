@@ -12,4 +12,5 @@ add_executable(CPPTutorial "OLD TEST STUFF/oldMain.cpp" "OLD TEST STUFF/math.cpp
         "OLD TEST STUFF/programFunctions.h"
         ghStuff/getModuleBaseAddress.cpp
         ghStuff/getModuleBaseAddress.h
+        main.cpp
 )
