@@ -5,8 +5,7 @@
 #include <windows.h>
 #include <TlHelp32.h>
 
-uintptr_t GetModuleBaseAddress(DWORD procId, wchar_t* modName)
-{
+uintptr_t GetModuleBaseAddress(DWORD procId, wchar_t *modName) {
     //initialize to zero for error checking
     uintptr_t modBaseAddr = 0;
 
@@ -14,8 +13,7 @@ uintptr_t GetModuleBaseAddress(DWORD procId, wchar_t* modName)
     HANDLE hSnap = CreateToolhelp32Snapshot(TH32CS_SNAPMODULE | TH32CS_SNAPMODULE32, procId);
 
     //check if it's valid
-    if (hSnap != INVALID_HANDLE_VALUE)
-    {
+    if (hSnap != INVALID_HANDLE_VALUE) {
         //this struct holds the actual module information
         MODULEENTRY32 modEntry;
 
@@ -23,16 +21,13 @@ uintptr_t GetModuleBaseAddress(DWORD procId, wchar_t* modName)
         modEntry.dwSize = sizeof(modEntry);
 
         //If a module exists, get it's entry
-        if (Module32First(hSnap, &modEntry))
-        {
+        if (Module32First(hSnap, &modEntry)) {
             //loop through the modules
-            do
-            {
+            do {
                 //compare the module name against ours
-                if (!_wcsicmp(modEntry.szModule, modName))
-                {
+                if (!_wcsicmp(reinterpret_cast<const wchar_t *>(modEntry.szModule), modName)) {
                     //copy the base address and break out of the loop
-                    modBaseAddr = (uintptr_t)modEntry.modBaseAddr;
+                    modBaseAddr = (uintptr_t) modEntry.modBaseAddr;
                     break;
                 }
 
