@@ -10,6 +10,4 @@ add_executable(CPPTutorial main.cpp math.cpp math.h roulette.cpp roulette.h
         messageSpam.h
         programFunctions.cpp
         programFunctions.h
-        testtttt.cpp
-        testtttt.h
 )
