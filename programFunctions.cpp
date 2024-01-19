@@ -3,10 +3,6 @@
 //
 
 #include "programFunctions.h"
-#include "math.h"
-#include "roulette.h"
-#include "messageSpam.h"
-#include "mainMenu.h"
 
 int endP () {
     return 0;
