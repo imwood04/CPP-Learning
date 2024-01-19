@@ -1,0 +1,12 @@
+//
+// Created by imwood04 on 1/19/2024.
+//
+
+#ifndef CPPTUTORIAL_PROGRAMFUNCTIONS_H
+#define CPPTUTORIAL_PROGRAMFUNCTIONS_H
+
+
+int endP ();
+
+
+#endif //CPPTUTORIAL_PROGRAMFUNCTIONS_H
