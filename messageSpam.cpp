@@ -14,7 +14,7 @@
             std::cout << "==================================" << std::endl;
         }
         for (int i = 0; i < 5; ++i) {
-            const char *word = "i love anime and coding";
+            const char *word = "i love anime and Coding";
             std::cout << word << std::endl;
             if (i < 4) {
                 std::cout << "Keep going!" << std::endl;
