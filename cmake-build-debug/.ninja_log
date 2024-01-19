@@ -2,9 +2,8 @@
 2	235	7273481135391036	CMakeFiles/CPPTutorial.dir/main.cpp.obj	9c78564d3dafb15a
 206	262	7273490013632112	CPPTutorial.exe	3489650d87c24d4e
 2	239	7273489396265240	CMakeFiles/CPPTutorial.dir/mainMenu.cpp.obj	f3548f563a25a0a2
-1	38	7273480740522777	CMakeFiles/CPPTutorial.dir/programFunctions.cpp.obj	1ee22c6a1053d73c
 2	206	7273490013092097	CMakeFiles/CPPTutorial.dir/math.cpp.obj	f26fd8dc0f0556f7
-1	94	7273496881986657	build.ninja	a6710ef2ec74500e
+1	38	7273480740522777	CMakeFiles/CPPTutorial.dir/programFunctions.cpp.obj	1ee22c6a1053d73c
 2	229	7273486949969672	CMakeFiles/CPPTutorial.dir/messageSpam.cpp.obj	559aa1fa0b7785fd
+1	94	7273498505227045	build.ninja	a6710ef2ec74500e
 4	229	7273474046029638	CMakeFiles/CPPTutorial.dir/roulette.cpp.obj	9c43025ba0340d48
-5	214	7273420951930812	CMakeFiles/CPPTutorial.dir/test.cpp.obj	eb2424351657edb1
