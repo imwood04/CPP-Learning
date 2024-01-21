@@ -2,6 +2,7 @@
 // Created by imwood04 on 1/19/2024.
 //
 #include <iostream>
+using namespace std;
 #include "mainMenu.h"
 #include "messageSpam.h"
 
@@ -9,18 +10,18 @@
         int x = 5;
         bool compResult = x == 5;
         if (compResult) {
-            std::cout << "==================================" << std::endl;
-            std::cout << "messageSpam.cpp has loaded!" << std::endl;
-            std::cout << "==================================" << std::endl;
+            cout << "==================================" << endl;
+            cout << "messageSpam.cpp has loaded!" << endl;
+            cout << "==================================" << endl;
         }
         for (int i = 0; i < 5; ++i) {
             const char *word = "i love anime and Coding";
-            std::cout << word << std::endl;
+            cout << word << endl;
             if (i < 4) {
-                std::cout << "Keep going!" << std::endl;
+                cout << "Keep going!" << endl;
             }
         }
-        std::cin.get();
-        std::cin.get();
+        cin.get();
+        cin.get();
         mMenu();
 }

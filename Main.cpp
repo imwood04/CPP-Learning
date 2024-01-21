@@ -17,11 +17,11 @@ int main() {
 
     mMenu();
 
-    std::cout << "==================================" << std::endl;
-    std::cout << "Press Enter to End this Program!" << std::endl;
-    std::cout << "==================================" << std::endl;
-    std::cin.get();
-    std::cin.get();
+    cout << "==================================" << endl;
+    cout << "Press Enter to End this Program!" << endl;
+    cout << "==================================" << endl;
+    cin.get();
+    cin.get();
 
     return 0;
 

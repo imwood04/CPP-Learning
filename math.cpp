@@ -3,6 +3,7 @@
 //
 
 #include <iostream>
+using namespace std;
 #include "math.h"
 #include "mainMenu.h"
 
@@ -11,18 +12,18 @@ void multyply() {
     int a;
     int b;
 
-    std::cout << "==================================" << std::endl;
-    std::cout << "Multiplication Function!" << std::endl;
-    std::cout << "==================================" << std::endl;
+    cout << "==================================" << endl;
+    cout << "Multiplication Function!" << endl;
+    cout << "==================================" << endl;
 
-    std::cout << "Enter a number: " << std::endl;
-    std::cin >> a;
-    std::cout << "Enter a number: " << std::endl;
-    std::cin >> b;
+    cout << "Enter a number: " << endl;
+    cin >> a;
+    cout << "Enter a number: " << endl;
+    cin >> b;
 
-    std::cout << "Your answer is: " << a << " x " << b << " = " << a * b << std::endl;
-    std::cin.get();
-    std::cin.get();
+    cout << "Your answer is: " << a << " x " << b << " = " << a * b << endl;
+    cin.get();
+    cin.get();
     mMenu();
 }
 

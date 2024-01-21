@@ -3,6 +3,7 @@
 //
 
 #include <iostream>
+using namespace std;
 #include "roulette.h"
 #include "mainMenu.h"
 
@@ -11,15 +12,15 @@ void roulette() {
 
     int randomBang = rand() % 6 + 1;
     if (randomBang == 1) {
-        std::cout << "*Bang*" << std::endl;
-        std::cout << "You are Dead!" << std::endl;
+        cout << "*Bang*" << endl;
+        cout << "You are Dead!" << endl;
     } else {
-        std::cout << "*Click*" << std::endl;
-        std::cout << "You Live to see another Day" << std::endl;
+        cout << "*Click*" << endl;
+        cout << "You Live to see another Day" << endl;
 
-        std::cout << "Press Enter to continue..." << std::endl;
-        std::cin.get();
-        std::cin.get();
+        cout << "Press Enter to continue..." << endl;
+        cin.get();
+        cin.get();
     }
     mMenu();
 }
