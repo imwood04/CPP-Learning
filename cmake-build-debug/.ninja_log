@@ -1,13 +1,11 @@
 # ninja log v5
 7	298	7273526135026176	CMakeFiles/CPPTutorial.dir/main.cpp.obj	9c78564d3dafb15a
 20	313	7273526135176166	CMakeFiles/CPPTutorial.dir/mainMenu.cpp.obj	f3548f563a25a0a2
-664	725	7273526338452167	CPPTutorial.exe	cbde61fd3f89d50f
+246	385	7273547561631350	CPPTutorial.exe	59f5654941c53ab4
 16	299	7273526135036173	CMakeFiles/CPPTutorial.dir/messageSpam.cpp.obj	559aa1fa0b7785fd
-1	94	7273547557636994	build.ninja	a6710ef2ec74500e
+1	83	7275162409592482	build.ninja	a6710ef2ec74500e
 4	304	7273526135086170	CMakeFiles/CPPTutorial.dir/math.cpp.obj	f26fd8dc0f0556f7
 9	67	7273526132716175	CMakeFiles/CPPTutorial.dir/programFunctions.cpp.obj	1ee22c6a1053d73c
 2	291	7273526134956174	CMakeFiles/CPPTutorial.dir/roulette.cpp.obj	9c43025ba0340d48
 2	663	7273526337862169	CMakeFiles/CPPTutorial.dir/ghStuff/getModuleBaseAddress.cpp.obj	44c88ef793371008
-1	83	7273547557636994	build.ninja	a6710ef2ec74500e
 2	246	7273547560251345	CMakeFiles/CPPTutorial.dir/Main.cpp.obj	358ca51c9445cb63
-246	385	7273547561631350	CPPTutorial.exe	59f5654941c53ab4
